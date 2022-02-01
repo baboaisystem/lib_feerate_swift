@@ -1,0 +1,136 @@
+PODS:
+  - _NIODataStructures (2.32.3)
+  - Alamofire (5.5.0)
+  - CNIOAtomics (2.32.3)
+  - CNIOBoringSSL (2.15.1)
+  - CNIOBoringSSLShims (2.15.1):
+    - CNIOBoringSSL (= 2.15.1)
+  - CNIODarwin (2.32.3)
+  - CNIOHTTPParser (2.32.3)
+  - CNIOLinux (2.32.3)
+  - CNIOSHA1 (2.32.3)
+  - CNIOWindows (2.32.3)
+  - FeeRateKit.swift (0.8.0):
+    - HsToolKit.swift (~> 1)
+    - RxSwift (~> 5.0)
+  - HsToolKit.swift (1.3.0):
+    - Alamofire (~> 5.0)
+    - ObjectMapper (~> 4.0)
+    - RxSwift (~> 5.0)
+    - SwiftNIOFoundationCompat
+    - SwiftNIOSSL
+    - SwiftNIOWebSocket
+  - ObjectMapper (4.2.0)
+  - RxSwift (5.1.3)
+  - SwiftNIO (2.32.3):
+    - SwiftNIOCore (= 2.32.3)
+    - SwiftNIOEmbedded (= 2.32.3)
+    - SwiftNIOPosix (= 2.32.3)
+  - SwiftNIOConcurrencyHelpers (2.32.3):
+    - CNIOAtomics (= 2.32.3)
+  - SwiftNIOCore (2.32.3):
+    - CNIOLinux (= 2.32.3)
+    - SwiftNIOConcurrencyHelpers (= 2.32.3)
+  - SwiftNIOEmbedded (2.32.3):
+    - _NIODataStructures (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+  - SwiftNIOFoundationCompat (2.32.3):
+    - SwiftNIO (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+  - SwiftNIOHTTP1 (2.32.3):
+    - CNIOHTTPParser (= 2.32.3)
+    - SwiftNIO (= 2.32.3)
+    - SwiftNIOConcurrencyHelpers (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+  - SwiftNIOPosix (2.32.3):
+    - _NIODataStructures (= 2.32.3)
+    - CNIODarwin (= 2.32.3)
+    - CNIOLinux (= 2.32.3)
+    - CNIOWindows (= 2.32.3)
+    - SwiftNIOConcurrencyHelpers (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+  - SwiftNIOSSL (2.15.1):
+    - CNIOBoringSSL (= 2.15.1)
+    - CNIOBoringSSLShims (= 2.15.1)
+    - SwiftNIO (< 3, >= 2.32.0)
+    - SwiftNIOConcurrencyHelpers (< 3, >= 2.32.0)
+    - SwiftNIOCore (< 3, >= 2.32.0)
+    - SwiftNIOTLS (< 3, >= 2.32.0)
+  - SwiftNIOTLS (2.32.3):
+    - SwiftNIO (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+  - SwiftNIOWebSocket (2.32.3):
+    - CNIOSHA1 (= 2.32.3)
+    - SwiftNIO (= 2.32.3)
+    - SwiftNIOCore (= 2.32.3)
+    - SwiftNIOHTTP1 (= 2.32.3)
+
+DEPENDENCIES:
+  - FeeRateKit.swift (from `../`)
+  - HsToolKit.swift (from `https://github.com/baboaisystem/lib_hstool_swift`)
+
+SPEC REPOS:
+  trunk:
+    - _NIODataStructures
+    - Alamofire
+    - CNIOAtomics
+    - CNIOBoringSSL
+    - CNIOBoringSSLShims
+    - CNIODarwin
+    - CNIOHTTPParser
+    - CNIOLinux
+    - CNIOSHA1
+    - CNIOWindows
+    - ObjectMapper
+    - RxSwift
+    - SwiftNIO
+    - SwiftNIOConcurrencyHelpers
+    - SwiftNIOCore
+    - SwiftNIOEmbedded
+    - SwiftNIOFoundationCompat
+    - SwiftNIOHTTP1
+    - SwiftNIOPosix
+    - SwiftNIOSSL
+    - SwiftNIOTLS
+    - SwiftNIOWebSocket
+
+EXTERNAL SOURCES:
+  FeeRateKit.swift:
+    :path: "../"
+  HsToolKit.swift:
+    :git: https://github.com/baboaisystem/lib_hstool_swift
+
+CHECKOUT OPTIONS:
+  HsToolKit.swift:
+    :commit: c0786469c9ff99a54f5296031c575d083c0038bc
+    :git: https://github.com/baboaisystem/lib_hstool_swift
+
+SPEC CHECKSUMS:
+  _NIODataStructures: e2077c7dc7c1d6c93e698c85fe04d663a17f53a4
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  CNIOAtomics: 4dde57e1838a29a9b23ef91617505f34751cdbe5
+  CNIOBoringSSL: c99129423da079a9eb74bcfc7cfec41a6775cf94
+  CNIOBoringSSLShims: 902ae35fea0b6be5eefb4fdce906751886cfa46f
+  CNIODarwin: 0489511f8486443af71ff986ccd5abbc680ae713
+  CNIOHTTPParser: f7a6816f7ddbe7dfa57a74cd36dc2db2c53b56e8
+  CNIOLinux: 5921dfefbc4bbe017380b34c510855622147ea41
+  CNIOSHA1: cdf6523d56bbb78be9b11ae4e6340fbc591b492d
+  CNIOWindows: f5aa9dfb401b440a7b4c9cd911e53e981a787193
+  FeeRateKit.swift: 358968ffd5dbac574be1c5baa0a836ecbc7e21fc
+  HsToolKit.swift: 14690dd2c00af9030cf1828b711d9399f51aa372
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SwiftNIO: bb336ceef32850e9671d3fa0e0cc2b9add3b5948
+  SwiftNIOConcurrencyHelpers: ca2594e10749655f42baf5468212be83d2f94fe3
+  SwiftNIOCore: 9deed6620f80c7c82e8e2c2ffb9864495416d892
+  SwiftNIOEmbedded: b7ccf12b402dff35a5d4356990a6253621e4337d
+  SwiftNIOFoundationCompat: d3b888766e7c67354a4e4e145d38edf9586efa0c
+  SwiftNIOHTTP1: 349a16aae363250cd49f430a9fdb93cff518adfa
+  SwiftNIOPosix: e4988a8dcfd5a6319bde219d7a3d0acc5fbe7a89
+  SwiftNIOSSL: 7c2ddcbcbb2a8188468b7fe9c2bc6124df4b3772
+  SwiftNIOTLS: 1b8290ec775238ccc714ed842d929494df95a2c2
+  SwiftNIOWebSocket: 035534780a7ed1c1b1fb068084690ce4747f83f5
+
+PODFILE CHECKSUM: 4e6a1e94bd58e3ca4cbd3abd2b95341f98ee1bc3
+
+COCOAPODS: 1.11.2
